@@ -15,5 +15,5 @@ const texto2 = ".$+*?-"
 console.log(texto2.match(/[$-?]/g))
 console.log(texto2.match(/[$\-?]/gi)) // não é intervalo por conta do caractere escape
 
-console.log(texto2.match(/[-$?]/g)) // trazendo os mesmos caracteres sem o escape
+console.log(texto2.match(/[-$?]/g)) // trazendo os mesmos estudo_regex sem o escape
 

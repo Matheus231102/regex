@@ -10,7 +10,7 @@ const regexPonto = /\./g
 
 console.log(texto.match(regexPonto))
 
-// retirar todos os caracteres excetos numeros e letras da string texto
+// retirar todos os estudo_regex excetos numeros e letras da string texto
 
 const regexRetirarCaracteres = /,|\.| |\?|!/gi
 console.log(texto.replace(regexRetirarCaracteres, ''))
@@ -18,7 +18,7 @@ console.log(texto.split(regexRetirarCaracteres))
 
 // retirar "\" da string abaixo
 
-let stringTeste = "Esta é uma string com todos os \\\ caracteres escapados.";
+let stringTeste = "Esta é uma string com todos os \\\ estudo_regex escapados.";
 const regexRetiraEscape = /\\/g
 const regexRetiraDoisEspacos = /  /g
 
