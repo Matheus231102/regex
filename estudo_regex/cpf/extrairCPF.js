@@ -14,8 +14,9 @@ const textoAprovadosErro = `CPF dos aprovados:
 	- 311.901.390-06 válido
 	- 717*461*94014 inválido`
 
+// inválido nesse caso significa que o texto não está nos padrões de formatação de CPF
 
-// Extrair cpf com as pontuações
+// EXTRAIR COM AS PONTUAÇÕES
 const regexCPF = /\b\d{3}\.\d{3}\.\d{3}-\d{2}\b/g
 
 console.log(textoAprovados.match(regexCPF))
